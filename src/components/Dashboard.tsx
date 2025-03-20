@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { AlertTriangle, ArrowRight, Whale, MapPin, Filter } from 'lucide-react';
-import { Badge } from './ui/Badge';
+import { AlertTriangle, ArrowRight, Fish, MapPin, Filter } from 'lucide-react';
+import { Badge } from './ui/badge';
 import { StatusIndicator } from './ui/StatusIndicator';
 
 const mockData = [
@@ -131,7 +131,7 @@ const Dashboard = ({ className }: DashboardProps) => {
                     <div className="flex items-start justify-between">
                       <div className="flex space-x-3">
                         <div className="bg-ocean-100 rounded-full p-2 text-ocean-500">
-                          <Whale className="h-5 w-5" />
+                          <Fish className="h-5 w-5" />
                         </div>
                         <div>
                           <div className="font-medium">{detection.species}</div>

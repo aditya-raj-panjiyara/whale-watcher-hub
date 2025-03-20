@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { ChevronDown, Radar, WaveSine } from 'lucide-react';
+import { ChevronDown, Radar, Waves } from 'lucide-react';
 import { WaveAnimation } from './WaveAnimation';
-import { Badge } from './ui/Badge';
+import { Badge } from './ui/badge';
 import { StatusIndicator } from './ui/StatusIndicator';
 
 interface HeroProps {
@@ -35,7 +35,7 @@ const Hero = ({ className }: HeroProps) => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl animate-slide-up [animation-delay:800ms]">
             <StatCard 
-              icon={<WaveSine className="h-8 w-8 text-ocean-500" />} 
+              icon={<Waves className="h-8 w-8 text-ocean-500" />} 
               label="Active Sensors" 
               value="32" 
             />

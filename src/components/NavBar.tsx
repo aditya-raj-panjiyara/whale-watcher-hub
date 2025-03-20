@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Menu, X, Whale } from 'lucide-react';
+import { Menu, X, Fish } from 'lucide-react';
 
 interface NavBarProps {
   className?: string;
@@ -37,7 +37,7 @@ const NavBar = ({ className }: NavBarProps) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Whale className="h-8 w-8 text-ocean-500" />
+            <Fish className="h-8 w-8 text-ocean-500" />
             <span className="text-xl font-semibold tracking-tight">Team GECR</span>
           </div>
           
