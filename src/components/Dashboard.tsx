@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { AlertTriangle, ArrowRight, Fish, MapPin, Filter } from 'lucide-react';

@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { Calendar, ChevronDown, Search, Download, Filter, ArrowUpDown } from 'lucide-react';
-import { Badge } from './ui/Badge';
+import { Badge } from './ui/badge';
 
 // Mock historical data
 const mockHistoricalData = [
